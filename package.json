@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ts-automation-framework",
+  "version": "1.0.0",
+  "description": "This build is a Playwright + TypeScript framework. It's one of the most in-demand stacks right now, it handles UI and API testing in one tool, and it has built-in auto-waiting, tracing, parallel runs, and a good HTML reporter.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daevashan/playwright-ts-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Daevashan/playwright-ts-automation-framework/issues"
+  },
+  "homepage": "https://github.com/Daevashan/playwright-ts-automation-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}
