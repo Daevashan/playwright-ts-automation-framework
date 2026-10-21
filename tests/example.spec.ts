@@ -1,14 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://app.thetestingacademy.com/playwright/ttacart/');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle('TTACart - Login');
 });
 
+
 test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://app.thetestingacademy.com/playwright/ttacart/');
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
@@ -16,3 +17,4 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
